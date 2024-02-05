@@ -1,5 +1,6 @@
 /* Main Header */
-body {
+.corpo {
+    background-color: var(--color-black);
     overflow: hidden;
 }
 
