@@ -2,14 +2,18 @@
     .offer-list-item {
         grid-template-columns: 1fr 1fr;
     }
-}
 
-.sections {
-    height: 455px;
-}
-
-:is(.disclaimer-premium, .header-section) {
-    display: none;
+    .sections {
+        height: 455px;
+    }
+    
+    .playlist-container {
+        height: 455;
+    }
+    
+    :is(.disclaimer-premium, .header-section) {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 810px){
