@@ -66,12 +66,11 @@ svg {
     text-decoration: none;
     color: var(--color-gray);
     fill: var(--color-gray);
-    text-decoration: none;
     gap: 12px;
     transition: 0.4s;
 }
 
-.sidebar nav ul li a {
+.sidebar nav ul li a:hover {
     color: var(--color-white);
     fill: var(--color-white);
 }
@@ -98,6 +97,7 @@ svg {
 .library .library-content .library-button {
     display: flex;
     margin-right: 10px;
+    align-items: center;
     color: var(--color-gray);
     fill: var(--color-gray);
     background-color: transparent;
@@ -116,7 +116,7 @@ svg {
     fill: var(--color-white);
 }
 
-.library .library-button .lb-icon {
+.library-button .lb-icon {
     font-size: 20px;
     margin-right: 10px;
     font-weight: 300;
@@ -309,6 +309,7 @@ svg {
     background: linear-gradient(90deg, rgba(253,29,29,1) 50%, rgba(88,252,69,0.9752275910364145) 100%);    padding: 15px 24px 7px 15px;
     display: flex;
     margin: 10px;
+    padding: 15px 24px 7px 15px;
     justify-content: space-between;
 }
 
